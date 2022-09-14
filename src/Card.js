@@ -18,6 +18,8 @@ import {
         <View style={{ marginVertical: '2%', borderBottomWidth: 1, backgroundColor: '#fff' }}>
         <View style={{ flexDirection: 'row' }}>
             <View style={{ top: 30 }}>
+
+                
                 <Text>hii</Text>
                 <Text>{item.name}</Text>
                 <Text>{item.subname}</Text></View>
