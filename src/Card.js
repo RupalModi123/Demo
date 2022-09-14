@@ -80,7 +80,8 @@ import {
         </SwiperFlatList>
         <View>
             <View style={styles.more}>
-                <View style={styles.expand}><Text numberOfLines={item.isExpanded == true ? 3 : 1} >{item.dummy}</Text>
+                <View style={styles.expand}>
+                    <Text numberOfLines={item.isExpanded == true ? 3 : 1} >{item.dummy}</Text>
                 </View>
                 <TouchableOpacity style={styles.textMore}     
                     onPress={() => moreButtonClick(item,index)}>
