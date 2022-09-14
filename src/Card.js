@@ -84,6 +84,7 @@ import {
                 </View>
                 <TouchableOpacity style={styles.textMore}
                     onPress={() => moreButtonClick(item,index)}>
+                        
                     <Text>{item.demo}</Text>
                 </TouchableOpacity>
             </View>
