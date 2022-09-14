@@ -19,8 +19,8 @@ import {
         <View style={{ flexDirection: 'row' }}>
             <View style={{ top: 30 }}>
 
-                
-                <Text>hii</Text>
+
+                <Text>hii rupal  </Text>
                 <Text>{item.name}</Text>
                 <Text>{item.subname}</Text></View>
             <View style={{ top: 35, marginLeft: 80 }}><Text>{item.place}</Text></View>
